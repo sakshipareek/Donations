@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Donation Forum">
+    <meta name="author" content="Sakshi Pareek">
+    <link rel="shortcut icon" href="assets/img/logo.png">
+
+    <title>Lend a Hand</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- Fonts from Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><b>PLEH!</b></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Glad to have you onboard!</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="headerwrap" onmouseover="typeWriter()">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<b><h1 id ="demo" ></h1></b>
+					<script>
+						var i = 0;
+						var txt = 'Lend a hand to people who need you.';
+						var speed = 50;
+						
+						function typeWriter() {
+						  if (i < txt.length) {
+							document.getElementById("demo").innerHTML += txt.charAt(i);
+							i++;
+							setTimeout(typeWriter, speed);
+						  }
+						}
+						</script>
+					<form class="form-inline" role="form">
+					  <div class="form-group">
+						<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HYWHOFAPah4ucX/view" data-text="I'm in" data-color="#595260" data-size="large">
+							<script>
+							  (function(){
+								var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+								if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+								s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+								rzp && rzp.init && rzp.init()}})();
+							</script>
+						  </div>
+							  
+					    
+					  </div>
+					  
+					</form>					
+				</div><!-- /col-lg-6 -->
+				<div class="col-lg-6">
+					<img class="img-responsive" src="assets/img/donate2.png" alt="">
+				</div><!-- /col-lg-6 -->
+				
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+	
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>How?<br/></h1>
+				<h3>Here is a step by step process as to what you are required to do to complete the entire process for this donation.</h3>
+			</div>
+		</div><!-- /row -->
+		
+		<div class="row mt centered">
+			<div class="col-lg-4">
+				<img src="assets/img/ser01.png" width="180" alt="">
+				<h4>1 - Signup </h4>
+				<p>Click on the "I'm in" button and signup up with the amount you want to help someone with and you are done. It only takes 2 minutes to signup.</p>
+			</div><!--/col-lg-4 -->
+
+			<div class="col-lg-4">
+				<img src="assets/img/ser02.png" width="180" alt="">
+				<h4>2 -Receive Invoice on mail </h4>
+				<p>As soon as the donation is being done you will get notified on your mail about the amount and receive an invoice of your payment.</p>
+
+			</div><!--/col-lg-4 -->
+
+			<div class="col-lg-4">
+				<img src="assets/img/ser03.png" width="180" alt="">
+				<h4>3 - Thankyou </h4>
+				<p>In these tough times, it is important to stick together and fight this pandemic together and as the government is doing the best it can, we wholeheartedly thank you for your contributions.</p>
+
+			</div><!--/col-lg-4 -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+	
+	<div class="container">
+		
+		<div class="row centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<form class="form-inline" role="form">
+				  <div class="form-group">
+				    <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HYWHOFAPah4ucX/view" data-text="I'm in" data-color="#595260" data-size="large">
+						<script>
+						  (function(){
+							var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+							if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+							s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+							rzp && rzp.init && rzp.init()}})();
+						</script>
+					  </div>
+				  </div>
+				  
+				</form>					
+			</div>
+			<div class="col-lg-3"></div>
+		</div><!-- /row -->
+		<hr>
+	</div><!-- /container -->
+
+	<p class="centered">Covid relief fund - 2021</p>
+
+	
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
